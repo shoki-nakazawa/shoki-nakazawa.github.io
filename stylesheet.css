@@ -19,7 +19,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
+   background-image:url(https://raw.githubusercontent.com/shoki-nakazawa/shoki-nakazawa.github.io/main/%E3%82%B3%E3%82%99%E3%83%BC%E3%83%AB%E3%83%86%E3%82%99%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AA%E3%83%8F%E3%82%99%E3%83%BC.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -247,8 +247,7 @@ footer {
 
   .top-wrapper {
     text-align: left;
-    background-image:url(https://raw.githubusercontent.com/shoki-nakazawa/shoki-nakazawa.github.io/main/%E3%82%B3%E3%82%99%E3%83%BC%E3%83%AB%E3%83%86%E3%82%99%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AA%E3%83%8F%E3%82%99%E3%83%BC.jpg);
-  }
+     }
 
   .top-wrapper h1 {
     font-size: 24px;
