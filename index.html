@@ -1,90 +1,167 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta charset="UTF-8">
+<meta name="description" content="最新技術と自然との調和を目指す">
+<meta name="viewport" content="width=device-width">
+<title>SAMPLE COMPANY | 最新技術と自然との調和を目指す</title>
+<link rel="stylesheet" media="all" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+
+<body id="top">
+<header id="header">
+	<div id="headerWrap">
+		<h1><img src="https://santgria.jp/images/signboard/ivv_logo.png" width="142" height="80" alt="logo"></h1>
+		<nav id="mainnav">
+			<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+			<div class="panel">
+				<ul>
+					<li><a href="#top">TOP</a></li>
+					<li><a href="#sec01">CONCEPT</a></li>
+					<li><a href="#sec02">GALLERY</a></li>
+					<li><a href="#sec03">PROJECT</a></li>
+					<li><a href="#sec04">MENU</a></li>
+					<li><a href="#sec05">COMPANY</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>
+
+<div id="mainImg">
+	<img src="https://raw.githubusercontent.com/shoki-nakazawa/shoki-nakazawa.github.io/main/santgriaMain.jpg" alt="">
+</div>
+
+<!-- MESSAGE -->
+<section id="sec01">
+	<header>
+		<h2><span>Concept</span></h2>
+	</header>
+	<div class="innerS">
+		37年間、府中グリーンプラザで皆様に愛された「サングリア」が、装いも新たに大国魂神社横に「イン・ヴィーノ・ヴェリータス」をオープンいたしました。
+		<br>
+		新しい「美味しさ」「楽しさ」「集い」の空間を創っていきたいという気持ちを込めて、この名前をつけました。
+		<br>
+		３層からなる各フロアを、様々な用途に合わせてご利用ください。	</div>
+	<div class=concept-container>
+		<ul class=contents>
+			<li>
+				<h1 class="concept veritas">VERITAS</h1>
+				<div class="innerS">
+					１階は、お友達と共に気軽に楽しめるレストラン＆バル。ワイン・シャンパンなど、お料理に合わせてお楽しみください。</div>
+			</li>
+			<li>
+				<h1 class="concept vino">VINO</h1>
+				<div class="innerS">
+					２階は、七五三・お宮参り・結婚式の二次会など、特別な日のお食事に落ち着いた雰囲気の中でゆっくりとお楽しみください。</div>
+			</li>
+			<li>
+				<h1 class="concept in">IN</h1>
+				<div class=innerS>
+					３階は、忘年会・新年会・ママ会などグループやサークルでご利用いただけます。ピアノも常設しており、ミニコンサートなど多目的にご利用ください。</div>
+			</li>
+		</ul>
+	</div>
+
+</section>
+<!-- // MESSAGE -->
+
+<!-- GALLERY -->
+<section id="sec02">
+	<header>
+		<h2><span>Gallery</span></h2>
+	</header>
+	<ul id="gallery">
+		<li><img src="images/dish1.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish2.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish3.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish4.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish5.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish6.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish7.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish8.jpeg" width="426" height="418" alt=""></li>
+		<li><img src="images/dish9.jpeg" width="426" height="418" alt=""></li>
+	</ul>
+</section>
+<!-- // GALLERY -->
+
+<!-- PROJECT -->
+<section id="sec03">
+	<header>
+		<h2><span>Party Plan</span></h2>
+	</header>
+	<div class="innerS">
+		<img src="images/party.jpg" width="726" height="333" alt="">
+		<p>コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・コースの説明・
+	</div>
+</section>
+<!-- // PROJECT -->
+
+<img src="images/takeout.jpg" alt="">
+
+<!-- BRAND -->
+<section id="sec04">
+	<header>
+		<h2><span>Menu</span></h2>
+	</header>
+	<div class="inner">
+		<ul class="col3">
+			<li>
+				<p class="img"><img src="images/logo01.png" width="170" height="106" alt=""></p>
+				<p>ここになんかランチの説明とか入れられます。</p>
+			</li>
+			<li>
+				<p class="img"><img src="images/logo02.png" width="170" height="106" alt=""></p>
+				<p>ここにディナーの説明を入れて、</p>
+			</li>
+			<li>
+				<p class="img"><img src="images/logo03.png" width="170" height="106" alt=""></p>
+				<p>ここになんでしょう、デザートとか、ドリンクとか？</p>
+			</li>
+		</ul>
+	</div>
+	<div id="sec04_02">
+		<p><img src="images/ivv_logo.png" width="340" height="107" alt=""></p>
+	</div>
+</section>
+<!-- // STORY -->
+
+<!-- COMPANY -->
+<section id="sec05">
+	<header>
+		<h2><span>Company</span></h2>
+	</header>
+	<div class="innerS">
+		<ul class="col2">
+			<li>
+				<p>〒183-0027<br>東京都府中市本町1−1−7</p>
+				<p>TEL 042-368-6368</p>
+				<p>e-Mail info@santgria.jp</p>
+				<p>営業時間 11:00〜22:00（L.O.21:00）（火曜定休）</p>
+				<p>※都合により休業する場合がございます</p>
+				<p id="sns">
+					<a href="#" target="_blank"><img src="images/iconFb.png" width="20" height="20" alt="FB"></a>
+					<a href="#" target="_blank"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a>
+					<a href="#" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a>
+					<a href="#" target="_blank"><img src="images/iconYouTube.png" width="20" height="20" alt="You Tube"></a>
+				</p>
+			</li>
+			<li>
+				<div id="map">
+					<!-- GOOGLE MAP -->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103716.96413730796!2d139.40774737069822!3d35.67318206962451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e500698210a9%3A0x3aa8585998625735!2zSU4gVklOTyBWRVJJVEFTIFNBTlRHUklBKOOCpOODs-ODtOOCo-ODvOODjuODtOOCp-ODquODvOOCv-OCueOCteODs-OCsOODquOCoik!5e0!3m2!1sja!2sjp!4v1603435043937!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>					<!-- // GOOGLE MAP -->
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- // COMPANY -->
+
+<footer id="footer">
+	Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+</footer>
+
 </body>
 </html>
